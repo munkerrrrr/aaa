@@ -13,7 +13,9 @@ function App() {
 
   return (
     <>
-      <p>{datas && JSON.stringify(datas)}</p>
+      <p>{datas && datas.data[9].chiglelname}</p>
+      {/* <p>{datas && JSON.stringify(datas)}</p> */}
+    
     </>
   );
 }
